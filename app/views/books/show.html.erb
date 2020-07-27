@@ -6,3 +6,6 @@
 <p>
   <strong>Body:</strong><%= @book.body %>
 </p>
+
+<%= link_to "Edit", books_path(@books) %> |
+<%= link_to "Back", edit_book_path(@book.id) %>
